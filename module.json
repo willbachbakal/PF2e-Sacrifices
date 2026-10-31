@@ -1,6 +1,6 @@
 {
-  "id": "",
-  "title": "",
+  "id": "sacrifices",
+  "title": "Sacrifices",
   "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
@@ -9,10 +9,13 @@
     "maximum": "14"
   },
   "flags": {
-    "": {
+    "sacrifices": {
       "pf2e-homebrew": {
         "featTraits": {
-          "": ""
+          "sacrifice": {
+            "label": "Sacrifice",
+            "description": "A sacrifice grants you a benefit at a cost. Each sacrifice lists a sacrifice entry detailing an aspect of your character that you lose permanently, in exchange for class features listed in the sacrifice’s entry. You must be able to pay the sacrifice’s cost in order to gain its benefits, but you can choose as many sacrifices as you are able to pay the cost. You pay the cost of a sacrifice and gain its benefits after applying alterations to your class from any features, feats, and class archetypes you select at 1st level."
+          }
         },
         "spellTraits": {
           "": ""
@@ -20,7 +23,7 @@
       }
     }
   },
-  "description": "",
+  "description": "A series of character options for Pathfinder Second Edition, allowing characters to sacrifice aspects of their character in exchange for unique benefits.",
   "authors": [
     {
       "name": "Teridax68",
@@ -29,9 +32,9 @@
   ],
   "packs": [
     {
-      "name": "",
-      "label": "",
-      "path": "packs/",
+      "name": "sacrifices",
+      "label": "Sacrifices",
+      "path": "packs/sacrifices",
       "type": "Item",
       "system": "pf2e",
       "flags": {}
@@ -44,5 +47,5 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
-  "readme": ""
+  "readme": "https://homebrewery.naturalcrit.com/share/CGNyJYONHAt8"
 }
